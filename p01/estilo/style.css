@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+:root {
+
+    --cor0: #010d16;
+    --cor1: #E0D7C8;
+    --cor2: #A1A4A3;
+    --cor3: #AFE4F6;
+    --cor4: #2F4C5A;
+    --cor5: #023457;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+body {
+    text-align: justify;
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+    
+}
+
+header {
+    background-image: linear-gradient( to bottom, #011524,#010d16 );
+    color: beige;
+    text-align: center;
+    padding-top: 80px ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.547);
+
+}
+
+header h1 {
+    margin-bottom: 45px;
+    font-size: 3em;
+}
+
+
+
+nav {
+    background-color: var(--cor0);
+    color: white;
+    padding: 15px;  
+    font-size: 20px;  
+}
+
+nav > a {
+    text-decoration: none;
+    color: var(--cor3);
+    margin: 10px;
+    transition-duration: 0.5s;    
+}
+
+nav > a:hover {
+    background-color: #2b5b6c;
+    padding: 15px;
+    border-radius: 10px;
+    color: #ddf4fd;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    min-height: 320px;
+    max-width: 1290px;
+    padding: 23px;
+    margin-top: 15px ;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.303);
+    
+}
+ 
+main h1 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 2.1em;
+}
+
+
+article h2 {
+
+    text-align: center;
+    color: var(--cor0);
+    background-image: linear-gradient(to right, );
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.8em;
+}
+
+
+div {
+    
+    margin: 10px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+img {
+    width: 100%;
+}
+
+.comentario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: var(--cor1) ;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.295);
+}
+
+aside > h3 {
+    background-color: var(--cor5);
+    color: white;
+    margin: -10px -10.2px 0px -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ aside > ul {
+     list-style-type: disc;
+     list-style-position: inside;
+     columns: 2;
+ }
+
+ aside  a {
+     color: var(--cor5);
+ }
+
+ aside a:hover {
+     color: #4b85ae;
+ }
+
+ aside abbr {
+     transition-duration: 0.1s;
+ }
+
+footer {
+
+    background-color: var(--cor4);
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+
+    text-decoration: none;
+    color: var(--cor1);
+}
