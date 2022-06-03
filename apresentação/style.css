@@ -73,12 +73,14 @@ aside {
 aside img {
     width: 40px;
     height: 40px;
+    
 }
 aside p {
     margin-top: 2px;
 }
 aside a {
     margin: 20px;
+    text-align: center;
 }
 
 footer {
