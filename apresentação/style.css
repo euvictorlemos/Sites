@@ -9,12 +9,18 @@ body {
 .conteiner {
     padding: 30px;
 }
-ul{
+
+nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
     padding: 16px;
+}
+
+ul {
+    list-style-position: inside; 
+    
 }
 
 nav a {
