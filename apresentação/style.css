@@ -20,7 +20,7 @@ nav ul{
 
 ul {
     list-style-position: inside; 
-    
+
 }
 
 nav a {
@@ -40,8 +40,8 @@ nav a:hover {
 
 header img {
 
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid #57D6F2;   
 }
