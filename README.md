@@ -12,3 +12,6 @@ Esses são os meus projetos e sites!
 <a href="https://euvictorlemos.github.io/Sites/projeto-android/d010.html">Projeto Android</a>
 
 <a href="https://euvictorlemos.github.io/Sites/projeto-cordel/cordel.html">Projeto Cordel</a>
+
+<a href="https://scratch.mit.edu/projects/724668265">Jogo LemosPong Scratch</a>
+
